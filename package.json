@@ -1,0 +1,24 @@
+{
+  "name": "ProfilePage",
+  "version": "1.0.0",
+  "description": "Uriel Fuentes's profile page for his web development portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrielFuentes98/ProfilePage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UrielFuentes98/ProfilePage/issues"
+  },
+  "homepage": "https://github.com/UrielFuentes98/ProfilePage#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Uriel's portfolio.</title>
+        <link rel="stylesheet" href="css/main-styles.css">
     </head>
     <body>
-        <header>
-            <h1>Uriel Fuentes's portfolio</h1>
-            <img src="https://placeimg.com/200/200/people" alt="Uriel's photo">
+        <header id="main-header">
+            <img id="header-img" src="https://placeimg.com/200/200/people" alt="Uriel's photo">
+            <h1 id="dev-name">Uriel Fuentes</h1>
+            <h2 id="dev-position">Web developer</h2>
         </header>
-        <main>
-            <section>
-                <article>
-                    <h2>Projects</h2>
-                    <p>
-                        <span>Project A</span>
-                        <span>Project B</span>
-                    </p>
-                </article>
-                <section>
-                    <h2>Skills</h2>
-                    <article>
-                        <h3>Languages</h3>
+        <main class="main-section">
+            <section class="content-section" id="projects-section">
+            <h2 class="section-header">Projects</h2>
+                <div class="section-flex">
+                    <article class="section-article">
+                        <h3 class="article-title">Project A.</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </article>
+                    <article class="section-article">
+                        <h3 class="article-title">Project B.</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    </article>
+                </div>
+            </section>
+            <section class="content-section">
+                <h2 class="section-header">Skills</h2>
+                <div class="section-flex">
+                    <article class="section-article">
+                        <h3 class="article-title">Languages</h3>
                         <ul>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -27,15 +38,18 @@
                             <li>Python</li>
                         </ul>
                     </article>
-                    <article>
-                        <h3>Frameworks &amp; libraries</h3>
+                    <article class="section-article">
+                        <h3 class="article-title">Frameworks &amp; libraries</h3>
                         <ul>
                             <li>React</li>
                             <li>Express</li>
                         </ul>
                     </article>
-                </section>
+                </div>
             </section>
         </main>
+        <footer>
+            <p>Footer</p>
+        </footer>
     </body>
 </html>

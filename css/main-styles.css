@@ -1,0 +1,60 @@
+body {
+    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header styles */
+
+#header-img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+#main-header {
+    text-align: center;
+    background-color: rgba(26, 13, 0, 0.3);
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+#dev-name,
+#dev-position {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Sections styles */
+
+.section-flex {
+    display: flex;
+}
+
+.section-flex {
+    display: flex;
+}
+
+.content-section {
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.section-header {
+    text-align: center;
+    margin-top: 0;
+}
+
+.section-article {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.article-title {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Projects styles */
+
+#projects-section {
+    background-color: rgba(255, 246, 168, 0.8);
+}
