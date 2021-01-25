@@ -1,55 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Uriel's portfolio.</title>
-        <link rel="stylesheet" href="css/main-styles.css">
-    </head>
-    <body>
-        <header id="main-header">
-            <img id="header-img" src="https://placeimg.com/200/200/people" alt="Uriel's photo">
-            <h1 id="dev-name">Uriel Fuentes</h1>
-            <h2 id="dev-position">Web developer</h2>
-        </header>
-        <main class="main-section">
-            <section class="content-section" id="projects-section">
-            <h2 class="section-header">Projects</h2>
-                <div class="section-flex">
-                    <article class="section-article">
-                        <h3 class="article-title">Project A.</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    </article>
-                    <article class="section-article">
-                        <h3 class="article-title">Project B.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    </article>
-                </div>
-            </section>
-            <section class="content-section" id="skills-section">
-                <h2 class="section-header">Skills</h2>
-                <div class="section-flex">
-                    <article class="section-article">
-                        <h3 class="article-title">Languages</h3>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>Python</li>
-                        </ul>
-                    </article>
-                    <article class="section-article">
-                        <h3 class="article-title">Frameworks &amp; libraries</h3>
-                        <ul>
-                            <li>React</li>
-                            <li>Express</li>
-                        </ul>
-                    </article>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <p>Footer</p>
-        </footer>
-    </body>
+  <head>
+    <title>Uriel's portfolio.</title>
+    <link rel="stylesheet" href="css/main-styles.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <ul id="contact-ul">
+        <li class="contact-item">
+          <object id="mail-svg" data="img/mail.svg" width="30"></object>
+          <p class="contact-text">urielfuentesc@gmail.com</p>
+        </li>
+        <li class="contact-item">
+          <object id="phone-svg" data="img/phone.svg" width="25"></object>
+          <p class="contact-text">81-1171-3641</p>
+        </li>
+        <li class="contact-item">
+          <object id="linkedin-svg" data="img/linkedin.svg" width="30"></object>
+          <a class="contact-text" id="linkedin-link" href="https://www.linkedin.com/in/urielfuentes/" target="_blank">LinkedIn</a>
+        </li>
+      </ul>
+      
+      <img id="header-img" src="img/profile_pic.jpg" alt="Uriel's photo" />
+      <h1 id="dev-name">Uriel Fuentes</h1>
+      <h2 id="dev-position">Web developer</h2>
+    </header>
+    <main class="main-section">
+      <section class="content-section" id="projects-section">
+        <h2 class="section-header">Projects</h2>
+        <div class="section-flex">
+          <article class="section-article">
+            <h3 class="article-title">HealthCare Clinic Website</h3>
+            <div id="clinic-link-div">
+              <a
+                href="https://urielfuentes98.github.io/HealthClinicPage/"
+                target="_blank"
+              >
+                <img
+                  id="clinic-image"
+                  src="img/HealthClinic.PNG"
+                  alt="Health Care Clinic"
+                />
+              </a>
+            </div>
+            <p>
+              Website for a Health Clinic that contains information about its
+              services, results and contact.
+            </p>
+            <p>Built with HTML and CSS.</p>
+          </article>
+          <article class="section-article">
+            <h3 class="article-title">Pomodoro timer tracker web app.</h3>
+            <div id="pomodoro-link-div">
+              <a
+                href="https://urielfuentes98.github.io/PomoTracker/"
+                target="_blank"
+              >
+                <img
+                  id="pomodoro-image"
+                  src="img/Pomodoro.PNG"
+                  alt="Health Clinic"
+                />
+              </a>
+            </div>
+            <p>
+              Web app that allows you to use the pomodoro technique by setting
+              custom timers for work and break sessions. The app notifies you
+              when a session finishes and automatically sets next session.
+            </p>
+            <p>Built with HTML, CSS and Javascript</p>
+          </article>
+        </div>
+      </section>
+      <section class="content-section" id="skills-section">
+        <h2 class="section-header">Skills</h2>
+        <div class="section-flex">
+          <article class="section-article">
+            <h3 class="article-title">Languages</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>Python</li>
+            </ul>
+          </article>
+          <article class="section-article">
+            <h3 class="article-title">Frameworks &amp; libraries</h3>
+            <ul>
+              <li>Node.js runtime.</li>
+              <li>React.</li>
+              <li>Express.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!--  <footer>
+      <p>Footer</p>
+    </footer> -->
+  </body>
 </html>

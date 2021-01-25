@@ -1,68 +1,120 @@
 body {
-    font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 90%;
-    margin: auto;
-    background-color: cornsilk;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 90%;
+  margin: auto;
+  background-color: cornsilk;
+}
+
+main {
+  margin-bottom: 20px;
 }
 
 /* Header styles */
 
 #header-img {
-    height: 150px;
-    border-radius: 50%;
+  height: 200px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#header-img:hover {
+  transition: all 0.3s ease-in-out 0s;
+  transform: rotate(-10deg) scale(1.1);
 }
 
 #main-header {
-    text-align: center;
-    background-color: rgba(26, 13, 0, 0.3);
-    border-radius: 20px;
-    padding-bottom: 25px;
-    padding-top: 20px;
-    margin-top: 20px;
+  text-align: center;
+  background-color: rgba(26, 13, 0, 0.3);
+  border-radius: 20px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+#contact-ul {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  list-style-type: none;
+}
+
+.contact-item {
+  display: flex;
+}
+
+#phone-svg {
+  margin-right: 5px;
+}
+
+.contact-text {
+  display: inline;
+  margin: 0.5rem 1rem;
+}
+
+#linkedin-link {
+  color: black;
+}
+
+#linkedin-link:hover {
+  color:darkblue;
 }
 
 #dev-name,
 #dev-position {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Sections styles */
 
 .section-flex {
-    display: flex;
+  display: flex;
 }
 
 .content-section {
-    /*width: 90%;
+  /*width: 90%;
     margin: auto;*/
-    margin-top: 20px;
-    border-radius: 20px;
-    padding: 20px 0;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px 0;
 }
 
 .section-header {
-    text-align: center;
-    margin-top: 0;
+  text-align: center;
+  margin-top: 0;
 }
 
 .section-article {
-    flex-grow: 1;
-    padding-left: 40px;
-    padding-right: 40px;
+  flex-grow: 1;
+  width: 50%;
+  margin: 0 50px;
 }
 
 .article-title {
-    margin-top: 0;
-    text-align: center;
+  margin-top: 0;
+  text-align: center;
 }
 
 /* Projects styles */
 
 #projects-section {
-    background-color: rgba(255, 246, 168, 0.8);
+  background-color: rgba(255, 246, 168, 0.8);
+}
+
+#clinic-link-div,
+#pomodoro-link-div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#clinic-image,
+#pomodoro-image {
+  width: 100%;
+  border-radius: 5px;
+  filter: contrast(80%);
 }
 
 #skills-section {
-    background-color: rgba(255, 127, 80, 0.5);
+  background-color: rgba(255, 127, 80, 0.5);
 }
